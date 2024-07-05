@@ -1,5 +1,5 @@
 # cpp-git-practice
-This a test use of Git for a simple coding project
+This a test of Git for a simple coding project
 
 # Piggy Banks
 The Piggy Banks program convert Euros, Marks, and Francs currency to dollars currency. This training project, prepared by [Codecademy](https://www.codecademy.com/learn/learn-c-plus-plus).
