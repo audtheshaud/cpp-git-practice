@@ -2,10 +2,10 @@
 in US Dollars given currency amounts from three European countries  */
 
 #include <iostream>
+#include <iomanip>
 
 float conversion(float &currency, float conversion_rate){
     currency *= conversion_rate;
-    std::cout << currency;
 }
 
 
@@ -25,7 +25,13 @@ int main(){
     conversion(marks, 0.55);
     conversion(francs, 1.11);
 
-    std::cout << "US Dollars = " << euros+marks+francs;
+    float total = euros + marks + francs;
+
+    char str[40];
+
+    sprintf(str,"%.2f", total);
+
+    std::cout << "US Dollars = $" << str;
     
     return 0;
 }
