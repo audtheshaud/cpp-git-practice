@@ -9,9 +9,9 @@ You just returned from a trip to Europe. The countries you visited were Germany,
 
 Write a C++ program called currency.cpp that prompts the user for the amount of each foreign currency. Your prompts should look like:
 
-Enter number of German Euros:
-Enter number of Bosnian Marks:
-Enter number of Swiss Francs:
+ - Enter number of German Euros:
+ - Enter number of Bosnian Marks:
+ - Enter number of Swiss Francs:
 
 Your program should then convert the amount entered by the user and display the total amount of USD. Your final output should look like:
 
